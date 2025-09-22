@@ -36,8 +36,8 @@ body, html {
 
 .card h3 {
     margin: 5px 0;
-    color: #333;
-    font-size: 10px;
+    color: #ffffff;
+    font-size: 14px;
 }
 
 .card h5 {
@@ -165,7 +165,7 @@ video, iframe {
     margin: 3px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgb(143, 130, 130, 0.4);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
