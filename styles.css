@@ -337,8 +337,8 @@ img {
 
     .tab-btn {
         flex: 1 1 auto; /* Distribute space evenly */
-        padding: 10px 15px;
-        font-size: 14px;
+        padding: 7px 7px;
+        font-size: 10px;
         text-align: center;
     }
 
