@@ -1,0 +1,368 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Responsive grid */
+    gap: 2px;
+    margin: 5px;
+    padding: 25px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+    border-bottom: 1px solid #ddd;
+    height: 45%;
+}
+
+.card h3 {
+    margin: 5px 0;
+    color: #333;
+    font-size: 10px;
+}
+
+.card h5 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 9px;
+    color: #666;
+}
+
+.card button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.card button:hover {
+    background-color: #3700b3;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 2px;
+    right: -50px;
+    background-color: #ff1744;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+video, iframe {
+    width: 100%;
+    height: 360px;
+    display: none;
+    background-color: black;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Tabs Styling */
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.tab-btn.active {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Content Styling */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab-content {
+    display: none;
+    /* width: 96%; */
+}
+
+.tab-content.active {
+    display: block;
+    margin: 25px;
+}
+
+.card {
+    margin: 3px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Modal Styling */
+/* Modal for Standings */
+#standings-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#standings-modal .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+#standings-iframe {
+    width: 100%;
+    height: 90%;
+    border: none;
+}
+
+
+.close-btn2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff1744;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.standings-btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+/* Disable text selection */
+body {
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For IE/Edge */
+}
+
+/* Disable dragging images */
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+
+#popup {
+            position: fixed;
+            bottom: 600px;
+            right: 370px;
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: none;
+            font-size: 20px;
+        }
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+        gap: 15px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .tabs-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tab-btn {
+        flex: 1 1 auto; /* Distribute space evenly */
+        padding: 10px 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .close-btn {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    background-color: #ff1744;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .tabs-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tab-btn {
+        flex: 1 1 auto; /* Distribute space evenly */
+        padding: 10px 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+        gap: 10px;
+    }
+
+    .card {
+        font-size: 10px;
+    }
+
+    .close-btn {
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    background-color: #ff1744;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+}

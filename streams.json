@@ -1,0 +1,705 @@
+{
+  "tnt1": {
+    "type": "dash",
+    "url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+    "drm": {
+      "keyId": "ae26845bd33038a9c0774a0981007294",
+      "key": "63ac662dde310cfb4cc6f9b43b34196d"
+    }
+  },
+
+  "tnt2": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+    "drm": {
+      "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
+      "key": "1aace05f58d8edef9697fd52cb09f441"
+    }
+  },
+
+  "tnt3": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+    "drm": {
+      "keyId": "4e993aa8c1f295f8b94e8e9e6f6d0bfe",
+      "key": "86a1ed6e96caab8eb1009fe530d2cf4f"
+    }
+  },
+
+  "tnt4": {
+    "type": "dash",
+    "url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+    "drm": {
+      "keyId": "e31a5a81caff5d07ea2411a571fc2e59",
+      "key": "96c5ef69479732ae734f962748c19729"
+    }
+  },
+
+  "willowcric": {
+    "type": "dash",
+    "url": "http://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/nmcsyv34ql/out/v1/663f8f08059340889951eee1351eddc2/cenc.mpd",
+    "drm": {
+      "keyId": "cec3ed49d57d515346b5a94787d47c56",
+      "key": "2eb7e6bce0c1dd2d17f754092e24cf39"
+    }
+  },
+
+
+  "tnt1i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=bbtsp1"
+  },
+
+  "tnt1m": {
+    "type": "m3u8",
+    "url": "https://9361edfe-185f-40b2-8656-2f450faeef7c.deepnoteproject.com/api/bbtsp1.m3u8"
+  },
+
+
+  "tnt2m": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/eJmauBDCIf.m3u8?st=T56QEyydImFuJ72DjI_fy61MiiMsjt4dgGift_kXZOM&e=1738435326"
+  },
+
+  "supprem": {
+    "type": "iframe",
+    "url": "https://helloapps.blog/web/?id=2"
+  },
+
+  "supprem2": {
+    "type": "iframe",
+    "url": "https://streamscenter.pro/embed/ch3.php"
+  },
+
+  "supprem3": {
+    "type": "m3u8",
+    "url": "https://esgabejkoebz.sbs/live/2/chunks.m3u8"
+  },
+
+  "tnt1i2": {
+    "type": "iframe",
+    "url": "https://streamscenter.pro/embed/ch1.php"
+  },
+
+  "tnt2i": {
+    "type": "iframe",
+    "url": "https://streamscenter.pro/embed/ch2.php"
+  },
+
+  "tnt3m": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/b0h5fNwDKH.m3u8?st=OpOMixgStaFrnq6rAKc7YhNIlHNBX7aMQLXKrHBsAms&e=1737834226"
+  },
+
+  "tnt3m2": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/bbtsp3.m3u8?md5=NUiZmEYguLttR6FSnKUO9A&expires=1739911848"
+  },
+
+  "tnt3i": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/bteu.php"
+  },
+
+  "sony1": {
+    "type":"m3u8",
+    "url":"https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_1_hd&e=.m3u8"
+  },
+
+  "sony2": {
+    "type": "m3u8",
+    "url": "https://host.mafiatv.live/toffee/live.php?id=sony_sports_2_hd&e=.m3u8"
+  },
+
+  "sony5": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=sony_sports_5_hd&e=.m3u8"
+  },
+
+  "sony3": {
+    "type": "m3u8",
+    "url": "https://linkchur.top/tv/chd/m3u8.php/ten1hd.m3u8"
+  },
+
+  "liv4": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/54daz6fe4za.m3u8?st=nINxaq2XKdYIEQpqPMC0pVbNydwirPjmVTHzTWHIQ_w&e=1737838428"
+  },
+
+
+  "liv5": {
+    "type": "m3u8",
+    "url": "https://hastycast.best/hls/syaLqucEne4k.m3u8?st=Ig2XKhvsBcpCqavNfYm2yAM74QKplqDXpSsooVemRdo&e=1737840841"
+  },
+
+  "liv6": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=premieruk"
+  },
+
+  "supercricket1": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-368.php"
+  },
+
+  "supercricket2": {
+    "type": "m3u8",
+    "url": "https://bdixtv24.site/sports/m3u8.php/supercricket.m3u8"
+  },
+
+  "supercricket": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=supercricket"
+  },
+  
+  "tsportsbd1": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
+  },
+
+  "tsportslive1": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+  },
+
+  "tsportslive2": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8"
+  },
+
+  "tsportslive3": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://live.tsports.com/mobile_hls/tsports_live_3/playlist.m3u8"
+  },
+
+  "tsportsbd1ct": {
+    "type": "m3u8",
+    "url": "https://cdn.hoichoi24.com/LIVE/video.m3u8"
+  },
+
+  "tsportsbd1cti": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player1.html?url=https://cdn.hoichoi24.com/LIVE/video.m3u8"
+  },
+
+  "tsportsbd2ct": {
+    "type": "m3u8",
+    "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+  },
+
+  "astrocricct": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/fox501.php"
+  },
+
+  "willowcricxx": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=willowusa"
+  },
+
+  "tsportsbd3": {
+    "type": "m3u8",
+    "url": "https://cdn.hoichoi24.com/TSportsHD/tracks-v1a1/mono.ts.m3u8"
+  },
+
+  "gtv": {
+    "type": "iframe",
+    "url": "https://fredflix.fun/bdix1/play.php?id=GTV"
+  },
+
+  "asports": {
+    "type": "iframe",
+    "url": "https://bdixtvlive.com/ayna/play.php?id=a3d48c46-7902-45e2-abf9-0fab60c4d117"
+  },
+
+  "sports18": {
+    "type": "m3u8",
+    "url": "https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/IDCDemo_IPL23_Sports18_MOB-audio_98838_eng=98800-video=2293600.m3u8"
+  },
+
+  "sports182": {
+    "type": "m3u8",
+    "url": "https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/index.m3u8"
+  },
+
+  "myco": {
+    "type": "m3u8",
+    "url": "https://ml-pull-hwc.myco.io/stream1/hls/stream1.m3u8"
+  },
+
+  "PTV": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/ptv.php"
+  },
+
+  "tencric2": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-269.php"
+  },
+
+  "tencric1": {
+    "type": "m3u8",
+    "url": "https://bdixtv24.site/toffee/live.php?id=ten_cricket&e=.m3u8"
+  },
+
+  "tencric3": {
+    "type": "dash",
+    "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd",
+    "drm": {
+      "keyId": "9872e439f21f4a299cab249c6554daa3",
+      "key": "0cdfcfe0d0f1fbe100554ce3ef4c4665"
+    }
+  },
+
+  "foxcric1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.site/sports/sportstv.php?c=fox501"
+  },
+
+  "foxcric2": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/fox501.php"
+  },
+
+  "foxcric3": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/fox501.m3u8?md5=UGBupU6F_8xHTvIxKSW8LA&expires=1739717201"
+  },
+
+
+  "astrocric3": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-370.php"
+  },
+
+  "astrocric1": {
+    "type": "dash",
+    "url": "https://astro-gbj7.vercel.app/2504/default_ott.mpd",
+    "drm": {
+      "keyId": "03c2e0af2f8159f9f0ce9b5dbc865f10",
+      "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+    }
+  },
+
+  "willow1": {
+    "type": "dash",
+    "url": "https://da-d436234b20010b8800010302000000000000000d.id.cdn.upcbroadband.com/wp/wp1-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000107_019441/go-dash-hdready-avc/NL_000107_019441.mpd",
+    "drm": {
+      "keyId": "3e999e38253834baa63881ea451f2839",
+      "key": "99b88d9cde1d8986decbc5985da87187"
+    }
+  },
+
+  "willow2": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-346.php"
+  },
+
+  "willow3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=willowusa"
+  },
+
+  "willow4": {
+    "type": "m3u8",
+    "url": "https://d3.dunyapurkaraja.com:999/hls/willowusa.m3u8?md5=HHvHBYi1Na6zVOeYzr5Xcw&expires=1739727549"
+  },
+
+  "willow5": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/willowcricket.php"
+  },
+
+  "willowex": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=willowextra"
+  },
+
+  "willowex1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=willowextra"
+  },
+
+  "willowex2": {
+    "type": "m3u8",
+    "url": "https://d5.dunyapurkaraja.com:999/hls/willowextra.m3u8?md5=vlLq4ET-E6gi7yAwCIfwbQ&expires=1739728762"
+  },
+
+  "willowex3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/willowextra.php"
+  },
+
+  "skycric1": {
+    "type": "dash",
+    "url": "https://linear017-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_720_120/Live/channel(skysportsmainevent)/manifest_720.mpd",
+    "drm": {
+      "keyId": "000546476256963bd054ded3b6ae5800",
+      "key": "1e497068bcc078fdb2f4296bc400ca2b"
+    }
+  },
+
+  "skycric2": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-65.php"
+  },
+
+  "skycric3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=skyscric"
+  },
+
+  "skycric4": {
+    "type": "m3u8",
+    "url": "https://d8.dunyapurkaraja.com:999/hls/skyscric.m3u8?md5=TS0jMPobNcwpydHdoWTQ1g&expires=1739729127"
+  },
+
+  "skycric5": {
+    "type": "iframe",
+    "url": "stream.crichd.sc/update/skys2.php"
+  },
+
+  "skyprem2": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-130.php"
+  },
+
+  "skyprem": {
+    "type": "m3u8",
+    "url": "https://d2.dunyapurkaraja.com:999/hls/skysprem.m3u8?md5=is-_h9RUlrFbtPfdSe2itQ&expires=1739720595"
+  },
+
+  "skyprem3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/skys5.php"
+  },
+
+  "skyprem4": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=skysprem"
+  },
+
+  "skyprem5": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.com/dsports/play.php?play=130"
+  },
+
+  "skyfoot": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-35.php"
+  },
+
+  "skynews": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-366.php"
+  },
+
+  "superliga": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=laligauk"
+  },
+
+  "superliga2": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/laligauk.m3u8?md5=krrfWzmXUs-BAKFaHDzzIg&expires=1740255600"
+  },
+
+  "superliga3": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/laligauk.php"
+  },
+
+  "superprem": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-414.php"
+  },
+
+  "superprem2": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=superpremier"
+  },
+
+  "superfoot": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-56.php"
+  },
+
+  "superpsl": {
+    "type": "iframe",
+    "url": "https://bdixtv24.com/cn1/play.php?key=BDIXTV24&c=sky1nz"
+  },
+
+  "supervar1": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=hdchnl6"
+  },
+
+  "supervar2": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=hdchnl7"
+  },
+
+  "supervar3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=hdchnl8"
+  },
+
+  "supervar4": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/sports/sportstv.php?c=hdchnl9"
+  },
+
+  "superac": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-420.php"
+  },
+
+  "supermax1": {
+    "type": "iframe",
+    "url": "https://s1.thenayeemparvez.xyz/daddyhd/?play=123"
+  },
+
+  "prem1uk1": {
+    "type": "m3u8",
+    "url": "https://d5.dunyapurkaraja.com:999/hls/premieruk.m3u8?md5=JuAyCWLER1_sTHcj6fELBQ&expires=1739726047"
+  },
+
+  "prem1uk2": {
+    "type": "iframe",
+    "url": "https://stream.crichd.sc/update/premier.php"
+  },
+
+  "prem1uk2i": {
+    "type": "iframe",
+    "url": "https://linkchur.top/tv/chd/play.php?c=premieruk"
+  },
+
+  "prem2uk1": {
+    "type": "m3u8",
+    "url": "https://d1.dunyapurkaraja.com:999/hls/hdchnl2.m3u8?md5=DsKfd4anHU-6YaX8iKPdHg&expires=1739726423"
+  },
+
+  "prem2uk2": {
+    "type": "iframe",
+    "url": "stream.crichd.sc/update/ch2.php"
+  },
+
+  "livtot": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player5.html?url=https://buddyxiptv.com/fancode/global/primary/116002_english_hls_6593ta-di/index.m3u8"
+  },
+
+  "arena1prem": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-134.php"
+  },
+
+  "arena2cro": {
+    "type": "iframe",
+    "url": "https://daddylive1.ru/live/stream-433.php"
+  },
+
+  "valbar": {
+    "type": "iframe",
+    "url": "https://yosintv3.github.io/player/player5.html?url=https://buddyxiptv.com/fancode/global/primary/117370_english_hls_6280ta-no/index.m3u8"
+  },
+
+  "superliga4": {
+    "type": "dash",
+    "url": "https://wp6-anp-g05060506-hzn-nl.t1.prd.dyncdn.dmdsdp.com/live/disk1/NL_000099_019256/_shared_cc010062b17300c4504b6ab5681b5417/NL_000099_019256.mpd",
+    "drm": {
+      "keyId": "16bf72dc22743d929c4318e193408373",
+      "key": "eae51a1e3904124963074cbf432c7c8e"
+    }
+  },
+
+  "ten1": {
+    "type": "m3u8",
+    "url": "https://d1.merichunidya.com:1686/hls/ten1hd.m3u8?md5=01KvEAncpEMGrlxg9hVGZw&expires=1758477949"
+  },
+
+  "ten2": {
+    "type": "m3u8",
+    "url": "https://dish.slivcdn.com/hls/live/2020591/TEN3HD/master_3500.m3u8"
+  },
+
+  "ten3": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/toffee/?play=fd6de8bd1666"
+  },
+
+  "ten5": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.co/toffee/?play=fd6de8bd1666"
+  },
+
+  "ct1m": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=match-1&e=.m3u8"
+  },
+
+  "ct1i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/toffee/?play=match-1"
+  },
+
+  "ct2m": {
+    "type": "m3u8",
+    "url": "https://tv.bdixtv24.live/toffee/live.php?id=match-2&e=.m3u8"
+  },
+
+  "ct2i": {
+    "type": "iframe",
+    "url": "https://tv.bdixtv24.live/toffee/?play=match-2"
+  },
+
+  "ct3m": {
+    "type": "m3u8",
+    "url": "https://maxplay-tv.fun/tff.php/init-589.m3u8"
+  },
+
+  "cttoffee1i": {
+    "type": "iframe",
+    "url": "https://host.mafiatv.live/toffee/?play=match-1"
+  },
+
+    "cttoffee2i": {
+    "type": "iframe",
+    "url": "https://host.mafiatv.live/toffee/?play=match-2"
+  },
+
+    "ctskycric": {
+    "type": "iframe",
+    "url": "https://www.yosintv.net/player1.html?url=https://hocdn.news/live/skyscric.m3u8"
+  },
+
+  "ct1m1": {
+    "type": "m3u8",
+    "url": "https://host.mafiatv.live/toffee/live.php?id=match-1&e=.m3u8"
+  },
+
+  "ct1mpdprime": {
+    "type": "dash",
+    "url": "https://otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xqqu5jyoti/out/v1/190f1d69a3d5467f8fb7d9df4339bc49/cenc.mpd",
+    "drm": {
+      "keyId": "d790f0486bf8b693422cfe64d9ed342a",
+      "key": "52fd36bde6820b5c07ce4485642394a8"
+    }
+  },
+
+    "ct1mpdprimehin": {
+    "type": "dash",
+    "url": "https://otte.live.cf.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rkyxparx1t/out/v1/fe9782633a364a6a84c9410f26d9b2c4/cenc.mpd",
+    "drm": {
+      "keyId": "494c5ddd4a2b9c38da05e053c0fd6d3f",
+      "key": "ad1ff8c72fc6fefbce716609da9347cf"
+    }
+  },
+    "ct1mpdprimehin2": {
+    "type": "m3u8",
+    "url": "https://userx534.protect-cdn.net/live/m3-720p.m3u8"
+  },
+
+  "ct1mpdwillow": {
+    "type": "dash",
+    "url": "https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+    "drm": {
+      "keyId": "1779c27b9d077a3ba0c9cc1bb9a94b9f",
+      "key": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
+    }
+  },
+
+  "iplmpdwillow": {
+    "type": "dash",
+    "url": "https://a170aivottlinear-a.akamaihd.net/OTTB/fra-nitro/live/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+    "drm": {
+      "keyId": "1779c27b9d077a3ba0c9cc1bb9a94b9f",
+      "key": "cc5cf3b7928fb9e0a1ee6a8b566f0a8e"
+    }
+  },
+
+  "iplhindistar2": {
+    "type": "m3u8",
+    "url": "https://v18tataplaysyndication.akamaized.net/bpk-tv/Sports18_1_HD_voot_MOB/output03/index.m3u8?hdnea=exp=1742653340~acl=/*~hmac=4300d188d0b9b22ca845f113a62f2a612416c820d10a2d03a98f2e7328d67b6d"
+  },
+
+  "star1": {
+    "type": "m3u8",
+    "url": "https://9361edfe-185f-40b2-8656-2f450faeef7c.deepnoteproject.com/api/star1in.m3u8"
+  },
+
+  "starhindi": {
+    "type": "m3u8",
+    "url": "https://9361edfe-185f-40b2-8656-2f450faeef7c.deepnoteproject.com/api/starhindi.m3u8"
+  },
+
+  "starselect1": {
+    "type": "dash",
+    "url": "https://moblive.yuppcdn.net/drm1/smil:starsportsselect1drm.smil/manifest.mpd",
+    "drm": {
+      "keyId": "0cdfcfe0d0f1fbe100554ce3ef4c4665",
+      "key": "9872e439f21f4a299cab249c6554daa3"
+    }
+  },
+
+  "starselect2": {
+    "type": "dash",
+    "url": "https://moblive.yuppcdn.net/drm1/smil:starsportsselect2drm.smil/manifest.mpd",
+    "drm": {
+      "keyId": "0cdfcfe0d0f1fbe100554ce3ef4c4665",
+      "key": "9872e439f21f4a299cab249c6554daa3"
+    }
+  },
+
+
+  "banind": {
+    "type": "iframe",
+    "url": "https://foreverquote.xyz/brkt/t10.php?=ch10"
+  },
+
+  "willowm3u": {
+    "type": "m3u8",
+    "url": "https://jf7.dunyapurkaraja.com:999/hls/willowusa.m3u8?md5=jw9ZdDnw8tR1HHZD6PZs7A&expires=1742918357"
+  },
+
+  "astrocricipl": {
+    "type": "dash",
+    "url": "https://astr0-proxy.vercel.app/2504/default_ott.mpd",
+    "drm": {
+      "keyId": "03c2e0af2f8159f9f0ce9b5dbc865f10",
+      "key": "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+    }
+  },
+
+
+  "tsportsipl": {
+    "type": "m3u8",
+    "url": "https://live.tsports.com/mobile_hls/tsports_live_2/index.m3u8"
+  },
+
+
+
+  "cdr": {
+    "type": "iframe",
+    "url": "https://cheapmarket.blog/idea/?id=1"
+  },
+
+  "cdr2": {
+    "type": "m3u8",
+    "url": "https://1a-1791.com/live/3fms19g4/slot-137/g5d5-xw6u_720p/chunklist_DVR.m3u8"
+  },
+
+  "argbra": {
+    "type": "m3u8",
+    "url": "https://off1.dunyapurkaraja.com:1686/hls/premieruk.m3u8?md5=RJK3iH7DV3KlCcw8kIX1dw&expires=1743635682"
+  },
+
+  "premuk": {
+    "type": "m3u8",
+    "url": "https://off1.dunyapurkaraja.com:1686/hls/premieruk.m3u8?md5=TJmIhp2ATzyDLymkBYASWw&expires=1745703963"
+  }
+
+
+
+  
+}

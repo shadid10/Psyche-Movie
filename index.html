@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Match</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/shaka-player.compiled.min.js"></script>
+    <script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool"></script>
+    <meta name="referrer" content="no-referrer">
+</head>
+<body>
+    <div class="header">
+        <h1>Watch Live Ad Free</h1>
+    </div>
+
+    
+
+    <div class="tabs-container">
+        <button class="tab-btn active" data-target="view-all">View All</button>
+        <button class="tab-btn" data-target="live-tv">Live TV</button>
+        <button class="tab-btn" data-target="live-events">Live Events</button>
+    </div>
+
+
+    
+
+
+    <!-- Tab Contents -->
+  <div id="live-tv" class="tab-content active">
+  <h3 class="section-heading">Live TV</h3> <!-- Separate heading -->
+  <div class="card-container">
+    <div class="card">
+      <img src="tsports.jpg" alt="Video Thumbnail">
+      <h3>T Sports HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="willow1" data-link="">Play</button>
+    </div>
+
+    <!-- <div class="card">
+      <img src="gtv.png" alt="Video Thumbnail">
+      <h3>Gazi TV HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="gtv" data-link="https://fredflix.fun/bdix1/play.php?id=GTV">Play</button>
+    </div> -->
+
+    <div class="card">
+      <img src="A_Sports_Logo.png" alt="Video Thumbnail">
+      <h3>A Sports HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="asports" data-link="">Play</button>
+    </div>
+
+    <!-- <div class="card">
+      <img src="Sports18_1_HD.jpg" alt="Video Thumbnail">
+      <h3>Sports 18 HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="sports182" data-link="https://jiotvbpklive.cdn.jio.com/bpk-tv/IDCDemo_IPL23_Sports18_MOB/Fallback/IDCDemo_IPL23_Sports18_MOB-audio_98838_eng=98800-video=2293600.m3u8">Play</button>
+    </div> -->
+
+    <div class="card">
+      <img src="supercric.png" alt="Video Thumbnail">
+      <h3>Supersports Cricket</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="supercricket">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tencric.jpg" alt="Video Thumbnail">
+      <h3>Ten Cricket HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="tencric3" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="Astro-Cricket-Ch838.png" alt="Video Thumbnail">
+      <h3>Astro Cricket HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="astrocric3" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="fox cricket.webp" alt="Video Thumbnail">
+      <h3>Fox Cricket HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="foxcric3" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="willoq.jpg" alt="Video Thumbnail">
+      <h3>Willow Cricket HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="willowcric" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="Willow Xtra.jpg" alt="Video Thumbnail">
+      <h3>Willow Cricket Extra</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="willowex" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="skycric.png" alt="Video Thumbnail">
+      <h3>Sky Cricket</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="skycric2" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="sky-sports-premier-league-uk.svg" alt="Video Thumbnail">
+      <h3>Sky Sports Premier League</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="skyprem5" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=skysprem">Play</button>
+      <!-- <button class="play-btn" data-channel="" data-link="https://secureplayer.sportstvn.com/token.php?stream=SkySportsCricket">Play</button> -->
+    </div>
+
+    <div class="card">
+      <img src="Sky_Sports_Football_GB_logo.webp" alt="Video Thumbnail">
+      <h3>Sky Sports Football</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="skyfoot" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=skysfott">Play</button>
+    </div>
+
+
+    <div class="card">
+      <img src="sky-sports-news-uk.svg" alt="Video Thumbnail">
+      <h3>Sky Sports News</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="skynews" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=skysfor1">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="superliga.jpg" alt="Video Thumbnail">
+      <h3>Supersports Laliga</h3>
+      <p>Live</p>
+      <!-- <button class="play-btn" data-channel="superliga" data-link="">Play</button> -->
+      <button class="play-btn" data-channel="argbra" data-link="">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="superprem.png" alt="Video Thumbnail">
+      <h3>Supersports Premier League</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="superprem2" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superpremier">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="superfoot.jpg" alt="Video Thumbnail">
+      <h3>Supersports Football</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="superfoot" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superfotball">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="superpsl.jpg" alt="Video Thumbnail">
+      <h3>Supersports PSL</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="superpsl" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superpsl">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="superac.jpg" alt="Video Thumbnail">
+      <h3>Supersports Action</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="superac" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superactions">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="supermax1.jpg" alt="Video Thumbnail">
+      <h3>Supersports Maximo 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="supermax1" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=supermeximo">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="supervar1.webp" alt="Video Thumbnail">
+      <h3>Supersports Variety 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl6">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="supervar2.jpg" alt="Video Thumbnail">
+      <h3>Supersports Variety 2</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl7">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="supervar3.jpg" alt="Video Thumbnail">
+      <h3>Supersports Variety 3</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl8">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="supervar4.jpg" alt="Video Thumbnail">
+      <h3>Supersports Variety 4</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl9">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt1.jpg" alt="Video Thumbnail">
+      <h3>TNT Sports 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="tnt1">Source 1</button>
+      <!-- <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1">Play</button> -->
+    </div>
+
+    <div class="card">
+      <img src="tnt2.png" alt="Video Thumbnail">
+      <h3>TNT Sports 2</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="tnt2" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp2">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt_sports_3.png" alt="Video Thumbnail">
+      <h3>TNT Sports 3</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp3">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt4.png" alt="Video Thumbnail">
+      <h3>TNT Sports 4</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=bbtespn">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt5.png" alt="Video Thumbnail">
+      <h3>TNT Sports 5</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl10">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt6.png" alt="Video Thumbnail">
+      <h3>TNT Sports 6</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl11">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="tnt7.png" alt="Video Thumbnail">
+      <h3>TNT Sports 7</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl12">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="starsel.jpg" alt="Video Thumbnail">
+      <h3>Star Sports Select HD 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="starselect1" data-link="https://secureplayer.sportstvn.com/token.php?stream=StarSportsSelect01">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="starsel2.jpg" alt="Video Thumbnail">
+      <h3>Star Sports Select HD 2</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="starselect2" data-link="https://secureplayer.sportstvn.com/token.php?stream=StarSportsSelect02">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="star1.jpg" alt="Video Thumbnail">
+      <h3>Star Sports HD 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="star1" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=star1in">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="starhin.jpg" alt="Video Thumbnail">
+      <h3>Star Sports Hindi HD</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="starhindi" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=starhindi">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="SONY_SportsTen1_HD.png" alt="Video Thumbnail">
+      <h3>Sony Ten 1</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="ten1" data-link="https://bdixtv24.site/toffee/?play=sony_sports_1_hd">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="SONY_SportsTen2_HD.png" alt="Video Thumbnail">
+      <h3>Sony Ten 2</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="ten2" data-link="https://bdixtv24.site/toffee/live.php?id=sony_sports_2_hd&e=.m3u8">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="SONY_SportsTen3_HD.png" alt="Video Thumbnail">
+      <h3>Sony Ten 3</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="ten3" data-link="https://secureplayer.sportstvn.com/token.php?stream=SonySportsTen03">Play</button>
+    </div>
+
+    <div class="card">
+      <img src="SONY_SportsTen5_HD.png" alt="Video Thumbnail">
+      <h3>Sony Ten 5</h3>
+      <p>Live</p>
+      <button class="play-btn" data-channel="ten5" data-link="https://bdixtv24.site/toffee/live.php?id=sony_sports_5_hd&e=.m3u8">Play</button>
+    </div>
+
+  </div>
+  </div>
+
+  <div id="live-events" class="tab-content active">
+  <h3 class="section-heading">Live Events</h3> <!-- Separate heading -->
+
+  <!-- <div>
+      <p>* Contains Ad. Please use Brave Browser if possible :)</p>
+  </div> -->
+
+  <div class="card-container">
+
+
+   <!-- <div class="card">
+      <img src="3rd-T20I-India-vs-England.avif" alt="Video Thumbnail">
+      <h3>England Tour of India 2025</h3>
+      <p>3rd T20i</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-channel="" data-link="https://secureplayer.sportstvn.com/token.php?stream=TSports">T Sports HD</button>
+      <button class="play-btn" data-channel="" data-link="https://secureplayer.sportstvn.com/token.php?stream=StarSports01">Star Sports HD 1</button>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=bbtsp1">TNT Sports 1</button>
+    </div> -->
+
+
+    
+
+    <!-- <div class="card">
+      <img src="bar ala.png" alt="Video Thumbnail">
+      <h3>LaLiga 2024-25</h3>
+      <p>Round 22</p>
+      <p>07:00 PM</p>
+      <button class="play-btn" data-channel="" data-link="https://embedme.top/embed/alpha/barcelona-vs-alaves/2">Source 1</button>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superlaliga">Source 2</button>
+      <button class="play-btn" data-channel="" data-link="https://sportstransfer.xyz/9x/?id=3">Source 3</button>
+      
+    </div>  -->
+
+
+    <!-- <div class="card">
+      <img src="city vs liv.jpg" alt="Video Thumbnail">h
+      <h3>Premier League 2024-25</h3>
+      <p>Round 26</p>
+      <p>Ongoing</p>
+
+      <button class="play-btn" data-channel="cityliv" data-link="https://embedme.top/embed/alpha/arsenal-vs-manchester-city/2">Source 1</button>
+    
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="utd cry.png" alt="Video Thumbnail">h
+      <h3>Premier League 2024-25</h3>
+      <p>Round 24</p>
+      <p>Ongoing</p>
+      <button class="play-btn" data-channel="" data-link="https://xiaolin.live/wowhaha.php?m3u8=https%3A%2F%2Flivecdn.rumsport.com%2Fstream%2F6%2Findex.m3u8&parent=axswatch.live&token=9b6c6ede1d779460e43860b5fc0aa4d4c3d8d8c9.false.1738497600-xbIqX4P%2F7Wwa2tQTPEd%2BFeYWNE0qTGRbdJzHP7D1%2F6g%3D">Source 1</button>
+      <button class="play-btn" data-channel="" data-link="https://embedme.top/embed/charlie/manchester-united-vs-crystal-palace-19134569/2">Source 1</button>
+      
+      </div> -->
+
+    <!-- <div class="card">
+      <img src="ips sou.jpeg" alt="Video Thumbnail">h
+      <h3>Premier League 2024-25</h3>
+      <p>Round 24</p>
+      <p>Ongoing</p>
+      <button class="play-btn" data-channel="m3u8" data-link="https://tralvoxmoon.xyz/file2/sMjHdztj4xG12KCR~FiwA+W2j4ZmLKV54fTqJKs1WLx~TTnRkFVkOhQ3GMwFmWuoaf8fmG+ri~rCSTwfF6~eQuMdUwlQjcTpQy4VIxfcFc~nlj+haSaUs8pJa4oAO82qhMZV+tYrmOHOAnBEji7rzF3QjtU0iVMYOKY9vKQgkDQ=/cGxheWxpc3QubTN1OA==.m3u8">Source 1</button>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl7">Source 2</button>
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="new ful.jpeg" alt="Video Thumbnail">h
+      <h3>Premier League 2024-25</h3>
+      <p>Round 24</p>
+      <p>Ongoing</p>
+      <button class="play-btn" data-channel="" data-link="https://secureplayer.sportstvn.com/token.php?stream=SkySport03">Source 1</button>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=hdchnl8">Source 2</button>
+      
+    </div> -->
+
+
+
+    <!-- <div class="card">
+      <img src="bar val.png" alt="Video Thumbnail">
+      <h3>LaLiga 2024-25</h3>
+      <p>Round 21</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superlaliga">Source 1</button>
+      <button class="play-btn" data-channel="" data-link="https://foreverquote.xyz/brkt/t4.php?=ch4">Source 2</button>
+      <button class="play-btn" data-channel="" data-link="https://sportstransfer.xyz/9x/?id=3">Source 3</button>
+      <button class="play-btn" data-channel="" data-link="https://fsportshd.net/embed/barcelona-live-streams.php">Source 4</button>
+      <button class="play-btn" data-channel="m3u8" data-link="http://familyip.vip/AF_SUP1/index.m3u8">Source 5</button>
+    </div> -->
+<!-- 
+    <div class="card">
+      <img src="hof fra.jpg" alt="Video Thumbnail">
+      <h3>Bundesliga 2024-25</h3>
+      <p>Round 22</p>
+      <p>Starts at 08:30 PM</p>
+      <button class="play-btn" data-channel="" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=skysfott">Play</button>
+    </div> -->
+
+    <!-- UEFA Champions League Card -->
+
+
+
+
+    <!-- <div class="card">
+      <img src="uefa-champions-league-pictures-rergq5gltabhbbnw.jpg" alt="Video Thumbnail">
+      <h3>UEFA Champions League 2024-25</h3>
+      <p>Pre-Match and Post-Match Show</p>
+      <button class="play-btn" data-channel="tnt1" data-link="">TNT Sports 1</button>
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="bar ben.png" alt="Video Thumbnail">
+      <h3>Barcelona v Benfica</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(1-0)</p>
+      <p>11:45 PM (11 March)</p>
+      <button class="play-btn" data-channel="tnt1" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="supprem" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="tnt1i2" data-link="">Source 3</button>
+
+    </div> -->
+
+    <div class="card">
+      <img src="" alt="Video Thumbnail">
+      <h3>Barcelona v Real Madrid</h3>
+      <p>CDR Final 2024-25</p>
+      <!-- <p>Quarter-Final 1st Leg</p> -->
+      <!-- <p>02:00 AM</p> -->
+      <button class="play-btn" data-channel="cdr" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="cdr" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="cdr2" data-link="">Source 3</button>
+
+    </div>
+
+    <!-- <div class="card">
+      <img src="int bay.png" alt="Video Thumbnail">
+      <h3>Bayern Munich v Inter Milan</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Quarter-Final 1st Leg</p>
+      <p>02:00 AM</p>
+      <button class="play-btn" data-channel="tnt1m" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt1" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="ten1" data-link="">Source 3</button>
+
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="lev bay.png" alt="Video Thumbnail">
+      <h3>Bayer Leverkusen v Bayern Munich</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(0-3)</p>
+      <p>02:00 AM (12 March)</p>
+      <button class="play-btn" data-channel="tnt1" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt3" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="tnt1i2" data-link="">Source 3</button>
+
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="int fey.jpg" alt="Video Thumbnail">
+      <h3>Inter Milan v Feyenoord</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(2-0)</p>
+      <p>02:00 AM (12 March)</p>
+      <button class="play-btn" data-channel="tnt2" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt2i" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="tnt4" data-link="">Source 2</button>
+
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="lil dor.jpg" alt="Video Thumbnail">
+      <h3>Lille v Borussia Dortmund</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(1-1)</p>
+      <p>11:45 PM (12 March)</p>
+      <button class="play-btn" data-channel="tnt4" data-link="">Source 1</button>
+      
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="atm mad.png" alt="Video Thumbnail">
+      <h3>Atlético Madrid v Real Madrid</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(1-2)</p>
+      <p>02:00 AM (13 March)</p>
+      <button class="play-btn" data-channel="tnt3" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="supprem" data-link="">Source 2</button>
+
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="ars psv.png" alt="Video Thumbnail">
+      <h3>Arsenal v PSV Eindhoven</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(7-1)</p>
+      <p>02:00 AM (13 March)</p>
+      <button class="play-btn" data-channel="tnt1" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt4" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="tnt1i2" data-link="">Source 3</button>
+
+    </div> -->
+
+
+
+    <!-- <div class="card">
+      <img src="ast bru.png" alt="Video Thumbnail">
+      <h3>Aston Villa v Club Brugge</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Round of 16 2nd Leg Agg(3-1)</p>
+      <p>02:00 AM (13 March)</p>
+      <button class="play-btn" data-channel="tnt2" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt2i" data-link="">Source 2</button>
+
+    </div> -->
+
+
+
+
+
+    <!-- <div class="card">
+      <img src="mad city.png" alt="Video Thumbnail">
+      <h3>Real Madrid vs Manchester City</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Playoffs 2nd Leg (Agg. 3-2)</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-channel="tnt1" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt1m" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="sony1" data-link="">Source 3</button>
+      <button class="play-btn" data-channel="" data-link="https://sportstransfer.xyz/9x/?id=1">Source 4</button>
+     
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="psg bre.png" alt="Video Thumbnail">
+      <h3>PSG vs Brest</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Playoffs 2nd Leg (Agg. 3-0)</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-channel="tnt4" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="supprem" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="prem1uk2i" data-link="">Source 3</button>
+      
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="juv vs psv.png" alt="Video Thumbnail">
+      <h3>PSV Eindhoven vs Juventus</h3>
+      <p>Uefa Champions League 2024-25</p>
+      <p>Playoffs 2nd Leg (Agg. 1-2)</p>
+      <p>Starts at 02:00 AM</p>
+      <button class="play-btn" data-channel="tnt3" data-link="">Source 1</button>
+      <button class="play-btn" data-channel="tnt3m" data-link="">Source 2</button>
+      <button class="play-btn" data-channel="sony5" data-link="">Source 3</button>
+
+    </div> -->
+
+    
+
+    
+
+    <!-- <div class="card">
+      <img src="val bar copa.png" alt="Video Thumbnail">
+      <h3>Copa del Rey 2025</h3>
+      <p>Valencia vs Barcelona</p>
+      <p>Quarterfinal Single Leg</p>
+      <p>Starts at 02:00 AM</p>
+
+      <button class="play-btn" data-channel="valbar" data-link="">Fancode</button>
+      <button class="play-btn" data-channel="arena1prem" data-link="">Arena 1 Premium</button>
+      <button class="play-btn" data-channel="arena2cro" data-link="">Arena 2 Croatia</button>
+      
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="tot liv.png" alt="Video Thumbnail">
+      <h3>Carabao Cup 2025</h3>
+      <h3>Liverpool vs Tottenham</h3>
+      <p>Semifinal 2nd Leg Agg. (0-1)</p>
+      
+      <button class="play-btn" data-channel="livtot" data-link="https://xiaolin.live/wowhaha.php?m3u8=https%3A%2F%2Flivecdn.rumsport.com%2Fstream%2F48%2Findex.m3u8&parent=axswatch.live&token=dd2b50e2b57d1a03d7ecbece2af412328de22dba.false.1738832400-uMJWLWJYSt%2FZU6C6r9A79FhOCOlJauiGD%2FKRXg8jyVs%3D">Fancode</button>
+      <button class="play-btn" data-channel="superprem" data-link="https://tv.bdixtv24.live/sports/sportstv.php?c=superpremier">Supersports</button>
+
+    </div> -->
+
+    
+
+    <!-- <div class="card">
+      <img src="watch-ipl-2025-live.webp" alt="Video Thumbnail">
+      <h3>TATA IPL 2025</h3>
+      <p>All Matches Live</p>
+      <button class="play-btn" data-channel="tsportsipl" data-link="">T Sports HD</button>
+      <button class="play-btn" data-channel="astrocricipl" data-link="">Astro Cricket</button>
+      <button class="play-btn" data-channel="willowm3u" data-link="">Willow Cricket</button>
+      <button class="play-btn" data-channel="iplhindistar2" data-link="">Star Sports Hindi</button>
+      <button class="play-btn" data-channel="ct1mpdprimehin" data-link="">Amazon Prime Hindi</button>
+      <button class="play-btn" data-channel="astrocric1" data-link="">Astro Cricket</button>
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="atm bar.webp" alt="Video Thumbnail">
+      <h3>Atletico Madrid vs Barcelona</h3>
+      <p>Copa del Rey 2nd Leg</p>
+      <button class="play-btn" data-channel="argbra" data-link="">Play</button>
+    </div> -->
+
+    <!-- <div class="card">
+      <img src="champion trophy.jpg" alt="Video Thumbnail">
+      <h3>ICC Champions Trophy 2025</h3>
+      <p>Starting From 19 February</p>
+      <button class="play-btn" data-channel="ct1mpdprimehin2" data-link="">Toffee 3</button>
+    </div> -->
+
+
+
+  </div>
+  </div>
+
+    <div id="popup">📢 DASH Stream is Loading. Please wait 10 seconds!</div>
+
+    <!-- Modal for Video Player -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-btn">X</button>
+            <video id="video" controls muted></video>
+            <iframe id="iframe" allowfullscreen></iframe>
+            <select id="quality-selector" style="display: none;"></select>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
